@@ -1,0 +1,93 @@
+/* Add a background color to the top navigation */
+.topnav {
+  position: relative;
+  background-color: "white";
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: "#394547";
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* Centered section inside the top navigation */
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.bottomnav {
+  background-color: "white";
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.bottomnav a {
+  float: left;
+  color: "#394547";
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* Centered section inside the top navigation */
+.bottomnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Right-aligned section inside the top navigation */
+.bottomnav-right {
+  float: right;
+}
+
+.label {
+  display: block;
+  font-size: 10px;
+  
+}
+
+img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
+
+  }
+
+span {
+
+  display: block;
+  font-size: 20px;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: auto;
+
+}
+
+
